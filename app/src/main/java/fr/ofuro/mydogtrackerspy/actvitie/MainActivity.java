@@ -1,4 +1,4 @@
-package fr.ofuro.mydogtrackerspy;
+package fr.ofuro.mydogtrackerspy.actvitie;
 
 
 import android.content.Context;
@@ -7,10 +7,11 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import fr.ofuro.mydogtrackerspy.R;
 
 public class MainActivity extends AppCompatActivity {
     private double latitude;
