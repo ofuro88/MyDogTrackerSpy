@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnActiver = findViewById(R.id.btn_main_activate);
 
+        // création d'un locationListener
         final LocationListener locListener=new LocationListener() {
             @Override
             public void onLocationChanged(android.location.Location location) {
